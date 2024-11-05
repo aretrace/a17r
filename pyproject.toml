@@ -1,0 +1,14 @@
+[project]
+name = "a17z"
+version = "0.1.0"
+description = "Automatic Localizer"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1.7",
+    "instructor>=1.6.3",
+    "openai>=1.53.0",
+    "polib>=1.2.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+]
